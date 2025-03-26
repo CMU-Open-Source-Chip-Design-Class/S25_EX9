@@ -1,2 +1,4 @@
-# S25_EX9
-Exercise repository for 18-224/624 in S25 semester
+# Exercise 9
+## Spring 2025
+
+This is the starter template for Exercise 9
