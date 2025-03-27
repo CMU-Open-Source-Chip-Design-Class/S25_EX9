@@ -132,12 +132,11 @@ async def step_clock(dut):
 #-------------------------------------------------------------------
 
 # This function places a bit value inside FF of specified index.
-# You'll get to edit this function in a later task
         
 # Hint: How many clocks would it take for value to reach
 #       the specified FF?
         
-async def input_chain(dut, bit, ff_index):
+async def input_chain_single(dut, bit, ff_index):
 
     ######################
     # TODO: YOUR CODE HERE 
@@ -145,14 +144,44 @@ async def input_chain(dut, bit, ff_index):
 
     pass
     
+#-------------------------------------------------------------------
+
+# This function places multiple bit values inside FFs of specified indexes.
+# This is an upgrade of input_chain_single() and should be accomplished
+#   for Part H of Task 1
+        
+# Hint: How many clocks would it take for value to reach
+#       the specified FF?
+        
+async def input_chain(dut, bit_list, ff_index):
+
+    ######################
+    # TODO: YOUR CODE HERE 
+    ######################
+
+    pass
 
 #-----------------------------------------------
 
-# This function retrieves a bit value from the
+# This function retrieves a single bit value from the
 # chain at specified index 
-# You'll get to edit this function in a later task
         
-async def output_chain(dut, ff_indx):
+async def output_chain_single(dut, ff_index):
+
+    ######################
+    # TODO: YOUR CODE HERE 
+    ######################
+
+    pass       
+
+#-----------------------------------------------
+
+# This function retrieves a single bit value from the
+# chain at specified index 
+# This is an upgrade of input_chain_single() and should be accomplished
+#   for Part H of Task 1
+        
+async def output_chain(dut, ff_index, output_length):
 
     ######################
     # TODO: YOUR CODE HERE 
